@@ -1,0 +1,33 @@
+_Start:
+git init
+git config --global user.name "name"
+git config -- global user.email "email"
+
+_Check commit status:
+git status
+
+_Add traking(green files):
+git add -A
+git add <file>
+
+_Create checkpoint:
+git commit -a -m"commit description"
+
+_Back to last commit:
+git checkout -- <file>
+
+_Check logs:
+gitlog
+
+_Connecting to GitHub:
+-create the repository
+git remote add <name> <repository url>
+
+_Create subname for repository:
+git branch -M <name>
+
+_Upload to GitHub:
+git push -u <name> <subname>
+
+_Downloading the poject:
+git clone <url> <folder>
